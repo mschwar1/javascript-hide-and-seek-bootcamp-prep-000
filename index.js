@@ -14,5 +14,13 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-
+  var digging = document.querySelectorAll('#grand-node div');
+  for (var i < digging.length) {
+    if digging[i].innerHTML.has('div') {
+      i++
+    }
+    else {
+      return digging[i].innerHTML;
+    }
+  }
 }
