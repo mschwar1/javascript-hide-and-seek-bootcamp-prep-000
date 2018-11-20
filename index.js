@@ -21,4 +21,3 @@ function deepestChild() {
     }
     return digging[i].innerHTML;
   }
-
