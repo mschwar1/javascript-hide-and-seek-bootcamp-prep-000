@@ -17,11 +17,8 @@ function deepestChild() {
   var digging = document.querySelectorAll('#grand-node div');
   var i = 0
   while (i < digging.length) {
-    if digging[i].innerHTML.has('div') {
       i++
     }
-    else {
-      return digging[i].innerHTML;
-    }
+    return digging[i].innerHTML;
   }
-}
+
